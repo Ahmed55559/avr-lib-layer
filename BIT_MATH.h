@@ -1,0 +1,16 @@
+// ========================================= BIT_MATH.h =========================================
+// Auther: Eng. Ahmed Ashraf
+// SWC: DIO/GPIO
+// Layer: LIB
+// Description: bit math header file
+// ===============================================================================================
+
+#ifndef BIT_MATH_H
+#define BIT_MATH_H
+
+#define SET_BIT(REG, BIT) (REG |= (1 << BIT))
+#define CLR_BIT(REG, BIT) (REG &= ~(1 << BIT))
+#define TOG_BIT(REG, BIT) (REG ^= (1 << BIT))
+#define GET_BIT(REG, BIT) ((REG >> BIT) & 1)
+
+#endif
