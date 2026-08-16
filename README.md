@@ -1,5 +1,5 @@
 
-````markdown
+
 # AVR Lib Layer
 
 A small collection of common C definitions and utilities used across my AVR embedded software projects.
@@ -52,9 +52,3 @@ AVR Hardware
 Complete.
 
 This library layer was developed as part of my AVR embedded-systems development work.
-
-````
-
----
-
----
